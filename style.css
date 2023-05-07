@@ -1,0 +1,166 @@
+/*------------------------------- body ---------------------------*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------------------------- grid-container ----------------*/
+
+.grid-container {
+  display: grid;
+  height: 100vh;
+}
+
+/*-------------------------------- section -------------------------------*/
+
+section {
+  margin: 5px;
+}
+
+.section1 {
+  background-color: #2b222c;
+}
+
+.section2 {
+  background-color: #5e4352;
+}
+
+.section3 {
+  background-color: #965d62;
+}
+
+.section4 {
+  background-color: #c7956d;
+}
+
+.section5 {
+  background-color: #96875a;
+}
+
+.section6 {
+  background-color: #e3c77b;
+}
+
+.section7 {
+  background-color: #e3a56b;
+}
+
+.section8 {
+  background-color: #e36b6b;
+}
+
+.section9 {
+  background-color: #ff4845;
+}
+
+/*----------------------------- media queries----------------------------- */
+
+@media (max-width: 320px) {
+  .section4 {
+    display: none;
+  }
+
+  .section5 {
+    display: none;
+  }
+
+  .section6 {
+    display: none;
+  }
+
+  .section7 {
+    display: none;
+  }
+
+  .section8 {
+    display: none;
+  }
+
+  .section9 {
+    display: none;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .section1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .section2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .section3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .section4 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .section5 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .section6 {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .section7 {
+    display: none;
+  }
+
+  .section8 {
+    display: none;
+  }
+
+  .section9 {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .section1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .section2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .section3 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .section4 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .section5 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .section6 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .section7 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .section8 {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .section9 {
+    grid-column: 3;
+    grid-row: 3;
+  }
+}
